@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include<stdio.h>'
 int main()
 {
-    float h,i;
-    scanf("%f",&h);
-    i=h*2.54;
-    printf("%.2f",i);
+    int n;
+    scanf("%d",&n);
+    float a;
+    a=2.54*n;
+    printf("%.2f",a);
 }
