@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
-{
-    int a,b,c;
-    scanf("%d%d",&a,&b);
-    c=a*b*0.5;
-    printf("%d",c);
+{ 
+    int b,h,a;
+    scanf("%d%d",&b,&h); 
+    
+    a=(b*h)*0.5; 
+    printf("%d",a);
     
 }
