@@ -3,13 +3,15 @@ int main()
 {
     int n,i,j;
     scanf("%d",&n);
-    for(i=1;i<=n;i++)
+    char ch;
+    for(i='A';i<'A'+n;i++)
     {
-        for(j=n;j>=1;j--)
+        for(j='A';j<'A'+n;j++)
         {
-            printf("%d ",j);
+        printf("%c ",i);
         }
         printf("
 ");
     }
+    
 }
