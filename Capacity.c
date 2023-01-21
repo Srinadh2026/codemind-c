@@ -1,8 +1,14 @@
 #include<stdio.h>
+int cap(int t,int s,int b)
+{
+    int c;
+    c=2*t*s*b*512/1024;
+    return c;
+}
 int main()
 {
-    int s,t,b,a;
-    scanf("%d%d%d",&s,&t,&b);
-    a=2*s*t*b*512/1024;
-    printf("%dkb",a);
+    int t,s,b,k;
+    scanf("%d%d%d",&t,&s,&b);
+    k=cap(t,s,b);
+    printf("%d KB",k);
 }
