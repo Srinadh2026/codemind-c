@@ -8,27 +8,23 @@ int main()
     {
         if(i%2!=0)
         {
-            if(k1==-1) 
-            { 
+            if(k1==-1)
+            {
                 printf("0 ");
                 k1++;
-                } 
-                else
-                { 
-                    s=pow(3,k1);
-                    printf("%d ",s);
-                    k1++; 
-  
-    
-} 
-            
+            }
+            else
+            {
+            s=pow(3,k1);
+            printf("%d ",s);
+            k1++;
+            }
         }
-        else 
-        { 
+        else
+        {
             a=pow(2,k2);
-            printf("%d ",a); 
+            printf("%d ",a);
             k2++;
-            }
-            }
-    
+        }
+    }
 }
